@@ -3,7 +3,7 @@
 
 
 int main() {
-    printf("you entered: " "A")
+    printf("you entered: A ")
 
   
 
