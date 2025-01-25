@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     char ch;
     scanf("%c";&c);
-    if('a'<=ch<='z'){
+    if(ch>='a'&& ch<='z'){
         printf("Lowercase");
     }
     else{
