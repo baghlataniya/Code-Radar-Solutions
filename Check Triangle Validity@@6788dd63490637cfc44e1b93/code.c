@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    int h,p,b;
-    scanf("%d %d %d",&h,&b,&p);
+    float h,p,b;
+    scanf("%f %f %f",&h,&b,&p);
     if(b*b+p*p==h*h){
         printf("Valid");
     }
