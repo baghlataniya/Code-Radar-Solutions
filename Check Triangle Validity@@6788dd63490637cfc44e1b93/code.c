@@ -8,9 +8,9 @@ int main() {
     int h,p,b;
     scanf("%d %d %d",&h,&b,&p);
     if(b*b+p*p==h*h){
-        printf("Valid")
+        printf("Valid");
     }
     else{
-        printf("Invalid")
+        printf("Invalid");
     }
 }
