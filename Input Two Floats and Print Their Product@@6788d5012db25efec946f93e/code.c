@@ -4,9 +4,9 @@
 
 int main() {
     float a,b;
-    scanf("%f %f",&a,&b);
+    scanf("%.2f %.2f",&a,&b);
     float mul=a*b;
-    printf("Product: %f\n",mul);
+    printf("Product: %.2f\n",mul);
     
     return 0;
 }
