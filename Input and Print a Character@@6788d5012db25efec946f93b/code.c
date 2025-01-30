@@ -3,7 +3,10 @@
 
 
 int main() {
-    printf("you entered: A ")
+   char n;
+   scanf("%c",&n);
+   printf("you entered:%c\n",n);
+
 
   
 
