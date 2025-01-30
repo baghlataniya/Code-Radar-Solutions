@@ -5,7 +5,7 @@
 int main() {
    char n;
    scanf("%c",&n);
-   printf("you entered:%c\n",n);
+   printf("You entered:%c\n",n);
 
 
   
