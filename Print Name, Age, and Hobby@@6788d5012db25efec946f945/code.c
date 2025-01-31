@@ -3,7 +3,7 @@
 
 
 int main() {
-    char name[100];
+    char name;
     char hobby[100];
     int age;
     
