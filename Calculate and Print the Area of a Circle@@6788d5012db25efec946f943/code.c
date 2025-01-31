@@ -3,8 +3,9 @@
 
 
 int main() {
-    int area;
-    scanf("%area",&area);
+    int radius;
+    scanf("%radius",&radius);
+    float area;
     printf("Area: %f\n",area);
 
     return 0;
