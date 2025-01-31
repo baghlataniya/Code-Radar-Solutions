@@ -4,11 +4,13 @@
 
 int main() {
     char name[100];
-    char hobby[100];
     int age;
+    char hobby[100];
+    
     scanf("%s %d %s",&name,&hobby,&age);
     printf("Name: %s\n", name);
-    printf("Age: %d\n", age);
+    printf("Age: %d\n", age)
+   
     printf("Hobby: %s\n", hobby);
     return 0;
 }
