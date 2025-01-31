@@ -3,7 +3,7 @@
 
 
 int main() {
-    float area;
+    int area;
     scanf("%area",&area);
     printf("Area: %f\n",area);
 
