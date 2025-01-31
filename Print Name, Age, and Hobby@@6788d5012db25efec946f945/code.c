@@ -11,4 +11,5 @@ int main() {
     printf("Age: %d\n",num);
     printf("Hobby: %s\n",s);
     return 0;
+}
     
