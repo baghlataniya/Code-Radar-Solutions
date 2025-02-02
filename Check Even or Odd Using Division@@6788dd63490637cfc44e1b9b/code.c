@@ -3,14 +3,16 @@
 
 
 int main() {
-    int n;
+    int n,m;
     scanf("%d",&n)
-    if(n%2==0){
+    int m=n/2;
+    if(m*2==n){
         printf("Even\n");
     }
     else{
         printf("Odd");
     }
+  
 
     
     return 0;
