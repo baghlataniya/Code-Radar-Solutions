@@ -1,13 +1,11 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
+
 
 int main() {
-    float h,p,b;
-    scanf("%f %f %f",&h,&b,&p);
-    if(b*b+p*p==h*h){
+    int h,p,b;
+    scanf("%d %d %d",&h,&b,&p);
+    if((a+b>c)&&(a+c>b)&&(c+b>a)){
         printf("Valid");
     }
     else{
