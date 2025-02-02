@@ -3,8 +3,9 @@
 
 
 int main() {
-    int h,p,b;
-    scanf("%d %d %d",&h,&b,&p);
+    float h,p,b;
+    scanf("%f %f %f", &h,&p,&b);
+
     if((a+b>c)&&(a+c>b)&&(c+b>a)){
         printf("Valid");
     }
