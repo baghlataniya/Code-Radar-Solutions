@@ -7,11 +7,11 @@ char* welcome() {
 int main() {
     char ch;
     scanf("%c";&c);
-    if(ch>='a'&& ch<='z'){
-        printf("Lowercase");
+    if(ch>='A'&& ch<='Z'){
+        printf("Uppercase");
     }
     else{
-        printf("Uppercase");
+        printf("Lowercase");
     }
 
 }
