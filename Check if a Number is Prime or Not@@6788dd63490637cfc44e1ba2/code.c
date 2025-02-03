@@ -8,7 +8,7 @@ int main() {
     }
     
     else{
-        for(i=2;i*i<n;i++){
+        for(i=2;(i*i)<n;i++){
             if(num%i==0){
                 isPrime=0;
                 break;
