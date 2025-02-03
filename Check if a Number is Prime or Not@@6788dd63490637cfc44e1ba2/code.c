@@ -10,7 +10,7 @@ int main() {
     else{
         for(i=2;i<=num;i++){
             if(num%i==0){
-                isPrime=0;
+                isPrime=1;
                 break;
             }
         }
