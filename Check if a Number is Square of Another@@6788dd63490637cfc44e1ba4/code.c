@@ -5,10 +5,10 @@ int main() {
     Int n, m;
     scanf("%d %d",&n,&m);
     if(n*n==m){
-        printf("Yes");
+        printf("Yes\n");
     }
     else{
-        printf("No");
+        printf("No\n");
 
     }
    
