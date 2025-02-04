@@ -11,10 +11,10 @@ int main() {
         printf("Monday");
     }
     else if(n==2){
-        printf("Tuesday")
+        printf("Tuesday");
     }
     else if(n==3){
-        printf("Wednesday")
+        printf("Wednesday");
     }
     else if(n==4){
         printf("Thursday");
