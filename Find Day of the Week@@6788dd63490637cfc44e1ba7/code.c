@@ -8,7 +8,7 @@ int main() {
     int n;
     scanf("%d",&n);
     if(n==1){
-        print("Monday");
+        printf("Monday");
     }
     else if(n==2){
         printf("Tuesday")
