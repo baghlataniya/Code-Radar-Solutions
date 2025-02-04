@@ -25,8 +25,11 @@ int main() {
     else if(n==6){
         printf("Saturday");
     }
-    else{
+    else if(n==7){
         printf("Sunday");
+    }
+    else{
+        printf("Invalid");
     }
 
    
