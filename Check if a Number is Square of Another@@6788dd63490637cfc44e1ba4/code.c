@@ -5,10 +5,10 @@ int main() {
     int num1, num2;
     scanf("%d %d",&num1,&num2);
     if(num1*num1==num2){
-        printf("Yes\n");
+        printf("No\n");
     }
     else{
-        printf("No\n");
+        printf("Yes\n");
 
     }
    
