@@ -16,9 +16,11 @@ int main(){
 
         case '*':
         printf("%d\n",a*b);
+        break;
         
         case '/':
         printf("%d\n",a/b);
+        break;
 
         default:
         printf("invaild op");
