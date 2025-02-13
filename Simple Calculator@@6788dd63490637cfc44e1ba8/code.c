@@ -2,32 +2,30 @@
 
 int main(){
     char op;
-    int a ,b;
-    scanf(" %c %d %d", &op,&a, &b);
-   
-
-    switch(op){
-        case '+':
+    int a,b;
+    scanf("%d %d %c",&a,&b,&c);
+    if('+'){
         printf("%d\n",a+b);
-        break;
-
-        case'-':
-        printf("%d\n",a-b);
-        break;
-
-        case '*':
-        printf("%d\n",a*b);
-        break;
-        
-        case '/':
-        printf("%d\n",a/b);
-        break;
-
-        // default:
-        // printf("invaild op");
-        // break;
     }
-
-
+    else if('-'){
+        printf("%d\n",a-b);
+    }
+    else if('*'){
+        printf("%d\n",a*b);
+    }
+    else if('/'){
+        if(b!=0){
+             printf("%d\n",a/b);
+        }
+        else{
+            printf("does not");
+        }
+    }
+    else{
+        printf("error");
+    }
+    
+        
+    
     return 0;
 }
