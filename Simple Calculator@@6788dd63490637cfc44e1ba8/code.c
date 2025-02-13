@@ -23,9 +23,9 @@ int main(){
         printf("%d\n",a/b);
         break;
 
-        default:
-        printf("invaild op");
-        break;
+        // default:
+        // printf("invaild op");
+        // break;
     }
 
 
