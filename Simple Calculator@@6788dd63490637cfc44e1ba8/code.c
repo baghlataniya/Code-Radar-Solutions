@@ -3,7 +3,7 @@
 int main(){
     char op;
     int a ,b;
-    scanf(" %c %d %d", &op,&a, &b,);
+    scanf(" %c %d %d", &op,&a, &b);
    
 
     switch(op){
