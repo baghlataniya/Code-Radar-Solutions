@@ -8,7 +8,7 @@ int main(){
         printf("31\n");
     }
     else if(month==2){
-        printf("28\n")
+        printf("28\n");
     }
     else{
         printf("30\n");
