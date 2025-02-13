@@ -5,13 +5,13 @@ int main(){
     if(month==1|| month==3||month==5||month==7||month==8||month==10||month==12){
 
     
-        printf("%d\n 31");
+        printf("31\n");
     }
     else if(month==2){
-        printf("%d\n 28");
+        printf("28\n")
     }
     else{
-        printf("%d\n 30");
+        printf("30\n");
     }
     
 
