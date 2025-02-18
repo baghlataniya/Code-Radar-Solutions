@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
 
-    printf(stderr,n)
+    printf(stderr,n);
     return 0;
 }
