@@ -1,4 +1,6 @@
-int isPrime(int num){
+#include <stdio.h>
+int main (){
+    int isPrime(int num){
     int isPrime=1;
     if(num<=1){
         isPrime=0;
@@ -9,4 +11,5 @@ int isPrime(int num){
         }
     }
     return isPrime;
+}
 }
