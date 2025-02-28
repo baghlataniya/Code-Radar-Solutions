@@ -12,4 +12,5 @@ int main (){
     }
     return isPrime;
 }
+return 0;
 }
