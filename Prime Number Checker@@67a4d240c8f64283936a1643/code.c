@@ -10,7 +10,7 @@ int main (){
             isPrime =0;
         }
     }
-    return isPrime;
+    return isPrime;
 }
 return 0;
 }
