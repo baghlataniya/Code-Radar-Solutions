@@ -8,5 +8,5 @@ int isPrime(int num){
             isPrime =0;
         }
     }
-    return isPrime;
+    return isPrime;
 }
