@@ -1,15 +1,18 @@
 #include <stdio.h>
-int fibo(int n){
-    if(n==2|| n==1) return 1;
-    int ans1=fibo(n-1);
-    int ans2=fibo(n-2);
-    int ans=ans1+ans2;
-    return ans;
+int fibonacciSeries(int n){
+    if(n==0) return 0;
+    if(n==1) return 1;
+    return fibonacciSeries(n-1)+fibonacciSeries(n-2);
+
 }
 int main(){
     int n;
-    scanf("%d",n);
-    int f=fibo(n);
-    printf("%d\n",n);
-    
+    scanf("%d",&n);
+    for(int i=0;i<n;i++){
+        printf("%d\n",fibonacciSeries(n));
+    }
+
+
+
+    return 0;
 }
