@@ -1,15 +1,14 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
     int n;
-    scanf("%d", &n); // Read the size of the triangle
+    scanf("%d", &n); // संख्या इनपुट करें
 
-    for (int i = n; i >= 1; i--) {  // Loop for rows (decreasing order)
-        for (char ch = 'A' + i - 1; ch >= 'A'; ch--) {  
-            printf("%c ", ch);  // Print characters in reverse order
+    for (int i = n; i >= 1; i--) {  // पंक्तियों के लिए लूप (बढ़ती पंक्तियाँ)
+        for (char ch = 'A'; ch < 'A' + i; ch++) {  
+            printf("%c ", ch);  // 'A' से 'A + i - 1' तक अक्षर प्रिंट करें
         }
-        printf("\n");  // Move to the next line
+        printf("\n");  // अगली लाइन पर जाएं
     }
 
     return 0;
