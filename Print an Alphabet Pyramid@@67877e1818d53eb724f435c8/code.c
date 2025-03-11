@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
@@ -10,7 +9,7 @@ int main() {
             printf(" ");  // Print spaces for alignment
         }
         for (char ch = 'A'; ch < 'A' + i; ch++) {  
-            printf("%c ", ch);  // Print alphabets with space
+            printf("%c ", ch);  // Print increasing alphabets
         }
         printf("\n");  // Move to the next line
     }
