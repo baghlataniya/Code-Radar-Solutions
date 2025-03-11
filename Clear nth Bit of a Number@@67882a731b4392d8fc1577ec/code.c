@@ -1,14 +1,12 @@
-// Your code here...
-
 #include <stdio.h>
 
 int main() {
     int num, n;
     scanf("%d %d", &num, &n);
 
-    // Right shift num by n positions and get the LSB using bitwise AND
-    int bit = (num >> n) & 1;
+    // Clear the nth bit using bitwise AND with NOT mask
+    num = num & ~(1 << n);
 
-    printf("%d\n", bit);
+    printf("%d\n", num);
     return 0;
 }
