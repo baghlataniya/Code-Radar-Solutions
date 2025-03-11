@@ -12,19 +12,13 @@ int main() {
     scanf("%d", &n);
 
     struct Employee emp[n];
-
-    // Input employee details
     for (int i = 0; i < n; i++) {
         scanf("%d %s %f", &emp[i].id, emp[i].name, &emp[i].salary);
-
-        // Apply correct bonus conditions:
         if (emp[i].salary >= 50000)  // >= 50000 gets 5%
             emp[i].bonus = 0.05 * emp[i].salary;
-        else  // < 50000 gets 10%
+        else  
             emp[i].bonus = 0.10 * emp[i].salary;
     }
-
-    // Output employee details with bonus
     for (int i = 0; i < n; i++) {
         printf("Employee ID: %d, Name: %s, Bonus: %.2f\n", emp[i].id, emp[i].name, emp[i].bonus);
     }
