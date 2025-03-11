@@ -7,7 +7,7 @@ int main() {
 
     for (int i = 1; i <= n; i++) {  // Loop for rows
         for (int j = 1; j <= i; j++) {  
-            printf("%d", j);  // Print numbers from 1 to i
+            printf("%d ", j);  // Print numbers from 1 to i
         }
         printf("\n");  // Move to the next line
     }
