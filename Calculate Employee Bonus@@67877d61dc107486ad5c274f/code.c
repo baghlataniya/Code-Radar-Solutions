@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 
 struct Employee {
@@ -18,11 +17,11 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d %s %f", &emp[i].id, emp[i].name, &emp[i].salary);
 
-        // Calculate bonus: 10% if salary > 50000, else 5%
-        if (emp[i].salary > 50000)
-            emp[i].bonus = 0.10 * emp[i].salary;
-        else
+        // Apply correct bonus conditions:
+        if (emp[i].salary >= 50000)  // >= 50000 gets 5%
             emp[i].bonus = 0.05 * emp[i].salary;
+        else  // < 50000 gets 10%
+            emp[i].bonus = 0.10 * emp[i].salary;
     }
 
     // Output employee details with bonus
