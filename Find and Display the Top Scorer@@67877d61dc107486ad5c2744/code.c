@@ -12,22 +12,14 @@ int main() {
 
     struct Student students[n];
 
-    // Read student details
     for (int i = 0; i < n; i++) {
         scanf("%d %s %f", &students[i].roll_number, students[i].name, &students[i].marks);
     }
 
-    // Find the student with the highest marks
-    int top_index = 0;
-    for (int i = 1; i < n; i++) {
-        if (students[i].marks > students[top_index].marks) {
-            top_index = i;
-        }
+    for (int i = 0; i < n; i++) {
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n", 
+                students[i].roll_number, students[i].name, students[i].marks);
     }
-
-    // Print the top scorer
-    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n",
-           students[top_index].roll_number, students[top_index].name, students[top_index].marks);
 
     return 0;
 }
