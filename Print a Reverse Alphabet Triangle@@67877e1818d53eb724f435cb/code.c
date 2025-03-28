@@ -1,15 +1,13 @@
 #include <stdio.h>
-
-int main() {
+int main(){
     int n;
-    scanf("%d", &n); // संख्या इनपुट करें
-
-    for (int i = n; i >= 1; i--) {  // पंक्तियों के लिए लूप (बढ़ती पंक्तियाँ)
-        for (char ch = 'A'; ch < 'A' + i; ch++) {  
-            printf("%c ", ch);  // 'A' से 'A + i - 1' तक अक्षर प्रिंट करें
+    char m='A'
+    scanf("%d",&n);
+    for(int i=n;i>=1;i--){
+        char ch=m;
+        for(int j=1;j<=i;j++){
+            printf("%c",ch);
+            ch++;
         }
-        printf("\n");  // अगली लाइन पर जाएं
     }
-
-    return 0;
 }
