@@ -1,28 +1,24 @@
 #include <stdio.h>
-int countevenodd(int arr[],int n){
-   int ce=0;
-    int co=0;
-    for(int i=0;i<=n;i++){
-        if(arr[i]%2==0){
-            ce++;
-        }
-        else{
-            co++;
-        }
-
+void countEvenodd(int arr[],int n,int result[]){
+    result[0]=0;
+    result[1]=0;
+    for(int i=0;i<n;i++){
+        if(arr[i]%2==0) return return[0]++;
+        else result[1]++;
     }
-    return countevenodd;
+
+
 }
-#include <stdio.h>
 int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
+
     }
-    int ans=countevenodd(arr[i]);
-    printf("%d",ans);
-
-
+    int result[2];
+    countEvenodd{arr,n,result};
+    printf("%d %d",result[0],result[1]);
+    return 0;
 }
