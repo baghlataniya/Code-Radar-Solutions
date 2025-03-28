@@ -1,7 +1,7 @@
 #include <stdio.h>
 int countevenodd(int arr[],int n){
-    ce=0;
-    co=0;
+   int ce=0;
+    int co=0;
     for(int i=0;i<=n;i++){
         if(arr[i]%2==0){
             ce++;
