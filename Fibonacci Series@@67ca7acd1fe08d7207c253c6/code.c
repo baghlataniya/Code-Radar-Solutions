@@ -1,15 +1,14 @@
 #include <stdio.h>
+int fibonacciSeries(int n){
+    if(n==0) return 0
+    else if(n==1) return 1
+    else return fibonacciSeries(n-1)+fibonacciSeries(n-2);
 
-int fibonacciSeries(int n) {
-    int a = 0, b = 1, next;
-    
-   
-    
-    for (int i = 0; i < n; i++) {
-        printf("%d ", a);
-        next = a + b;
-        a = b;
-        b = next;
+}
+void fibonacciSeries(int n){
+    for(int i=0;i<=n;i++){
+       
+        printf("%d",fibonacciSeries(i));
+
     }
-    return a;
 }
