@@ -23,7 +23,7 @@ int main() {
         scanf("%d", &arr[i]); // Read array elements
     }
 
-    // int minMax[2]; // Array to store min and max
+    int minMax[2]; // Array to store min and max
     findMinMax(arr, n, minMax); // Find min and max
 
     printf("%d %d\n", minMax[0], minMax[1]); // Print min and max
