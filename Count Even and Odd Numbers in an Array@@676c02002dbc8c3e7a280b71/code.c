@@ -4,10 +4,10 @@ int countevenodd(int arr[],int n){
     co=0;
     for(int i=0;i<=n;i++){
         if(arr[i]%2==0){
-            ce++
+            ce++;
         }
         else{
-            co++
+            co++;
         }
 
     }
