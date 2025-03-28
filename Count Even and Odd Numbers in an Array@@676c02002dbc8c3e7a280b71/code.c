@@ -18,7 +18,7 @@ int main(){
 
     }
     int result[2];
-    countEvenodd{arr,n,result};
+    countEvenodd(arr,n,result);
     printf("%d %d",result[0],result[1]);
     return 0;
 }
