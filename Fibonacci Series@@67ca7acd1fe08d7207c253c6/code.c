@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void fibonacciSeries(int n) {
+int fibonacciSeries(int n) {
     int a = 0, b = 1, next;
     
    
@@ -11,4 +11,5 @@ void fibonacciSeries(int n) {
         a = b;
         b = next;
     }
+    return fibonacciSeries;
 }
