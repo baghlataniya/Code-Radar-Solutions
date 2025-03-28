@@ -1,18 +1,15 @@
 #include <stdio.h>
-
-int main() {
+int main(){
     int n;
-    scanf("%d", &n); // Read the size of the pyramid
-
-    for (int i = 1; i <= n; i++) {  // Loop for rows
-        for (int j = 1; j <= n - i; j++) {  
-            printf(" ");  // Print spaces for alignment
+    char m='A';
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        char n=m;
+        for(int j=1;j<=i;j++){
+            printf("%c ",n);
+            n++;
         }
-        for (char ch = 'A'; ch < 'A' + i; ch++) {  
-            printf("%c ", ch);  // Print increasing alphabets
-        }
-        printf("\n");  // Move to the next line
+        printf("\n");
     }
-
     return 0;
 }
