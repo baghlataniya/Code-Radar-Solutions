@@ -6,9 +6,9 @@ void factorialRange(int start,int end){
         printf("1");
     }
     int fact=1;
-    for(int i=start;i<end;i++){
+    for(int i=start;i<=end;i++){
         fact=fact*i;
-         printf("%d",fact);
+         printf("%d\n",fact);
     }
    
 
