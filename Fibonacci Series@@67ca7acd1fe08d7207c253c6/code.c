@@ -1,4 +1,4 @@
-void fibbonacciSeries(int n){
+void fibonacciSeries(int n){
   int a=1;
   int b=1;
   for(int i=1;i<=n;i++){
@@ -7,4 +7,5 @@ void fibbonacciSeries(int n){
     a=b;
     b=temp;
   }
+
 }
