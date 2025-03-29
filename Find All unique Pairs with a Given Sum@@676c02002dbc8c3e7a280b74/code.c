@@ -21,5 +21,6 @@ int main(){
     int target;
     scanf("%d",&target);
     sum(arr,n,target);
+    return 0;
 
 }
