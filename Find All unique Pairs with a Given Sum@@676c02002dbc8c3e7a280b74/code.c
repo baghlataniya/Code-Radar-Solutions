@@ -22,16 +22,4 @@ int main(){
     scanf("%d",&target);
     sum(arr,n,target);
 
-
-
-
-
-
-
-
-
-
-
-
-
 }
