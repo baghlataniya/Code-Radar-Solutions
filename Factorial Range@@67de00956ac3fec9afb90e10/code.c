@@ -8,8 +8,9 @@ void factorialRange(int start,int end){
     int fact;
     for(int i=start;i<=end;i++){
         fact*=i;
+         printf("%d",i);
     }
-    printf("%d",i);
+   
 
 }
 
