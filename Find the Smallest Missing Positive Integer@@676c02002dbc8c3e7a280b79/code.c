@@ -3,7 +3,7 @@
 int findSmallestMissing(int arr[], int n) {
     int num = 1; // Start from the smallest positive integer
 
-    while (1) { // Infinite loop to find the missing number
+    // Infinite loop to find the missing number
         int found = 0; // Flag to check if num is present in array
         
         for (int i = 0; i < n; i++) {
@@ -15,7 +15,7 @@ int findSmallestMissing(int arr[], int n) {
 
         if (!found) return num; // If not found, return the missing number
         num++; // Check next number
-    }
+    
 }
 
 int main() {
