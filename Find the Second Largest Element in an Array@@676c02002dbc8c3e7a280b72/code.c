@@ -9,7 +9,7 @@ int secmax(int arr[],int n){
         max=arr[i];
       }
     }
-    return smax;
+    return secmax;
     
 }
 int main(){
