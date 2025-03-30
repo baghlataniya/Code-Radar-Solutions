@@ -1,5 +1,5 @@
 #include <stdio.h>
-int largesteven number(int arr[],int n){
+int largestevennumber(int arr[],int n){
     int largest=INT_MIN;
     for(int i=0;i<n;i++){
         if(arr[i]%2==0&& largest<arr[i]){
@@ -18,7 +18,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    int result = largestEvenNumber(arr, n);
+    int result =largestevennumber(arr, n);
     printf("%d\n", result);
 
     return 0;
