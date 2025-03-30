@@ -1,14 +1,22 @@
 #include <stdio.h>
-void duplicates(int arr[],int n){
+void duplicate(int arr[],int n){
     for(int i=0;i<n;i++){
-        for(int j=i+1;i<n;i++){
+        bool flag=false;
+        for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
-                printf("%d",arr[i]);
-                
+                flag=true;
+
             }
         }
+         if(flag==false){
+            printf("%d",arr[i]);
+            break;
+        }
+
     }
 }
+    
+
 int main(){
     int n;
     scanf("%d",&n);
