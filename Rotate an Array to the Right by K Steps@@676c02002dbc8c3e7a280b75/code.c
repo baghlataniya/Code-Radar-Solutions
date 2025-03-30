@@ -1,13 +1,13 @@
 #include <stdio.h>
 int reverse(int arr[],int i,int j){
-    while(n<k){
+    while(i<j){
         int temp=arr[i];
         arr[i]=arr[j];
         arr[j]=temp;
         i++;
         j--;
     }
-    return reverse
+    return reverse;
 }
 int main(){
     int n;
