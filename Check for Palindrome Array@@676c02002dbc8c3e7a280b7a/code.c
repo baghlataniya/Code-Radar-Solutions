@@ -3,10 +3,10 @@
 int isPalindrome(int arr[],int n){
     for(int i=0;i<n;i++){
         if(arr[i]!=arr[n-i-1]){
-            return 0
+            return 0;
         }
     } 
-    return 1
+    return 1;
 }
 int main(){
     int n;
