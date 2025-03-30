@@ -1,5 +1,5 @@
 #include <stdio.h>
-int search(int arr[],int n,int x){
+void search(int arr[],int n,int x){
     for(int i=0;i<n;i++){
         if(arr[i]==x){
             printf("%d",i);
@@ -7,7 +7,7 @@ int search(int arr[],int n,int x){
         }
         
     }
-    return -1;
+   printf("-1");
 }
 int main(){
     int n;
