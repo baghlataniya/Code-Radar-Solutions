@@ -6,7 +6,7 @@ int maxproduct(int arr[],int n){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             int product=arr[i]*arr[j];
-            if(product<maxp){
+            if(product>maxp){
                 maxp=product;
             }
         }
