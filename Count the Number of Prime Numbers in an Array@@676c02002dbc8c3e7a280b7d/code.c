@@ -24,7 +24,7 @@ int count(int arr[],int n){
             }
         }
         return cnt;
-    }
+}
     int main(){
         int n;
         scanf("%d",&n);
