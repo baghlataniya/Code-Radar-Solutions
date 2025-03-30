@@ -1,5 +1,5 @@
 #include <stdio.h>
-void duplicate(int arr[],int n){
+void duplicates(int arr[],int n){
     for(int i=0;i<n;i++){
         bool flag=false;
         for(int j=i+1;j<n;j++){
