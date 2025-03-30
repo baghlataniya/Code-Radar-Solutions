@@ -1,6 +1,6 @@
 #include <stdio.h>
 int count(int arr[],int n,int k){
-    int cnt=0
+    int cnt=0;
     for(int i=0;i<n;i++){
        for(int j=i+1;i<n;i++){
         if(arr[i]+arr[j]==k){
