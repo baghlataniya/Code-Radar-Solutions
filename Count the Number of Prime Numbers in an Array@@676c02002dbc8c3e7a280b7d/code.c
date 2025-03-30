@@ -51,4 +51,3 @@ int count(int arr[],int n){
 
 
 
-}
