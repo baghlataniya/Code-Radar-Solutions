@@ -3,7 +3,7 @@
 
 int secmax(int arr[], int n) {
     int max = INT_MIN;
-    int secmax = INT_MIN;  // Fix: Correct variable name
+    int secmax = INT_MIN;
 
     for (int i = 0; i < n; i++) {
         if (arr[i] > max) {
@@ -14,16 +14,20 @@ int secmax(int arr[], int n) {
             secmax = arr[i];  // Update second max correctly
         }
     }
-    return secmax;
+    
+    // If secmax is still INT_MIN, it means no second maximum exists
+    return (secmax == INT_MIN) ? -1 : secmax;
 }
 
 int main() {
     int n;
     scanf("%d", &n);
     int arr[n];
+    
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
+
     int x = secmax(arr, n);
     printf("%d", x);
 
