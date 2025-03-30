@@ -1,5 +1,5 @@
 #include <stdio.h>
-int reverse(int arr[],int i,int j){
+void reverse(int arr[],int i,int j){
     while(i<j){
         int temp=arr[i];
         arr[i]=arr[j];
@@ -7,7 +7,7 @@ int reverse(int arr[],int i,int j){
         i++;
         j--;
     }
-    return reverse;
+   
 }
 int main(){
     int n;
@@ -27,5 +27,6 @@ int main(){
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
+    return 0;
 
 }
