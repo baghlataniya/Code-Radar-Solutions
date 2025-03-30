@@ -1,14 +1,14 @@
 #include <stdio.h>
 void duplicates(int arr[],int n){
     for(int i=0;i<n;i++){
-        bool flag=false;
+        int isPrinted=0;
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
-                flag=true;
+                isPrinted=1;
 
             }
         }
-         if(flag==false){
+         if(isPrinted==1){
             printf("%d",arr[i]);
             break;
         }
