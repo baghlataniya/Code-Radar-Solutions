@@ -1,31 +1,28 @@
 #include <stdio.h>
-
-void findMinMax(int arr[], int n, int minMax[]) {
-    minMax[0] = arr[0]; // Initialize min
-    minMax[1] = arr[0]; // Initialize max
-
-    for (int i = 1; i < n; i++) {
-        if (arr[i] < minMax[0]) {
-            minMax[0] = arr[i]; // Update min
+void findminMax(int arr[],int n,int minmax){
+    int max=INT_MIN;
+    int min=INT_MIN;
+    for(int i=0;i<n;i++){
+        if(arr[i]>max){
+            max=arr[i];
         }
-        if (arr[i] > minMax[1]) {
-            minMax[1] = arr[i]; // Update max
+        if(arr[i]<min){
+            min=arr[i];
         }
     }
 }
-
-int main() {
+int main(){
     int n;
-    scanf("%d", &n); // Read the array size
+    scanf("%d",&n);
     int arr[n];
-
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]); // Read array elements
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
     }
+    int minmax[2];
+    findminMax(arr,n,minmax);
+    for(int i=0;i<n;i++){
+        printf("%d %d",minmax[o],minmax[1]);
+    }
+   
 
-    int minMax[2]; // Array to store min and max
-    findMinMax(arr, n, minMax); // Find min and max
-
-    printf("%d %d\n", minMax[0], minMax[1]); // Print min and max
-    return 0;
 }
