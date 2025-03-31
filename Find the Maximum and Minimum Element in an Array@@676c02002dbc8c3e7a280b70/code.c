@@ -1,3 +1,4 @@
+#include <limits.h>
 #include <stdio.h>
 void findminMax(int arr[],int n,int minmax){
     int max=INT_MIN;
