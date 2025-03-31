@@ -17,7 +17,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int k;
-    scanf("%d",&k)
+    scanf("%d",&k);
     if(k>n) k=k%10;
     reverse(arr,0,n-1);
     reverse(arr,0,k-1);
