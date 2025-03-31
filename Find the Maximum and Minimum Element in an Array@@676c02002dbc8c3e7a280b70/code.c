@@ -1,6 +1,6 @@
 #include <limits.h>
 #include <stdio.h>
-void findminMax(int arr[],int n,int minmax){
+void findminMax(int arr[],int n,int minmax[]){
     int max=INT_MIN;
     int min=INT_MIN;
     for(int i=0;i<n;i++){
