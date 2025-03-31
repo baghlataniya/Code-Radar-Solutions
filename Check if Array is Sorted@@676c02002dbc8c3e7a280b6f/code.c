@@ -4,8 +4,9 @@ int isSorted(int arr[],int n){
         if(arr[i]>arr[i+1]){
             return 0;
         }
-        return 1;
+    
     }
+    return 1;
 }
 int main(){
     int n;
@@ -15,7 +16,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int x=isSorted(arr,n);
-    if(isSorted(x)){
+    if(x){
         printf("Sorted");
     }
     else{
