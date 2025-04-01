@@ -1,10 +1,12 @@
 #include <stdio.h>
 void duplicates(int arr[],int n){
     for(int i=0;i<n;i++){
-        isprinted=0;
+        
+         int isprinted=0;
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 isprinted=1;
+                break;
             }
         }
         if(isprinted==1){
