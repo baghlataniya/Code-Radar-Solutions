@@ -16,6 +16,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int x=count(arr[i]);
+    int x=count(arr,n);
     printf("%d",x);
 }
