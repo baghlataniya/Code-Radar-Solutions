@@ -28,3 +28,19 @@ int main() {
     int count = 0;
     
     // Input the array elements
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+    
+    // Count how many numbers are palindromes
+    for (int i = 0; i < n; i++) {
+        if (isPalindrome(arr[i])) {
+            count++;
+        }
+    }
+    
+    // Output the count of palindromes
+    printf("%d\n", count);
+    
+    return 0;
+}
