@@ -11,6 +11,7 @@ void findminMax(int arr[],int n){
             min=arr[i];
         }
     }
+    printf("%d %d",min,max);
 }
 int main(){
     int n;
@@ -19,6 +20,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-   printf("%d %d",min,max);
+    findminMax(arr,n);
+  
 
 }
