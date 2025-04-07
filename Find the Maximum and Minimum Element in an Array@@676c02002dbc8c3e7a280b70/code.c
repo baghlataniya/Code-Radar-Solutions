@@ -21,9 +21,8 @@ int main(){
     }
     int minmax[2];
     findminMax(arr,n,minmax);
-    for(int i=0;i<n;i++){
-        printf("%d %d",minmax[0],minmax[1]);
-    }
+   printf("%d %d",minmax[0],minmax[1]);
+    
    
 
 }
